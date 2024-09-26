@@ -6,4 +6,6 @@ import com.devhalyson.userdept.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
+   
+
 }
