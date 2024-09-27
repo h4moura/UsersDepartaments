@@ -40,7 +40,7 @@ public class UserController {
 
     @PutMapping(value = "/{id}")
     public User update(@PathVariable Long id, @RequestBody User user) {
-        // Busca o usuário pelo ID
+       
         User existingUser = repository.findById(id).orElse(null);
         
         if (existingUser != null) {
